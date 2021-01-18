@@ -1,0 +1,190 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('image/Capture.PNG');
+    background-repeat: no-repeat;
+    background-size: 1691px;
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    background-color: black;
+    display: block;
+    height: 50px;
+    /*position: static;*/
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+
+}
+.right {
+    position:absolute;
+    right:157px;
+    top:-4px;
+    display:inline-block;
+}
+.left {
+    position: absolute;
+    right: 1109px;
+    top: -6px;
+}
+.navbar li {
+    display: inline-block;
+    font-size:25px;
+}
+.navbar li a {
+    color:white;
+    text-decoration:none;
+    padding:34px 11px;
+}
+.navbar li a:hover {
+    color:gray;
+    }
+
+.container {
+    border: 4px solid black;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+    background-color: yellowgreen;
+}
+.form-group input {
+    text-align:center;
+    font-family: 'Baloo Bhai', cursive;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.btn {
+    margin: 0px 9px;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 21px;
+    cursor: pointer;
+    display: block;
+    width: 46%;
+    margin: auto;
+}
+.btnn {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px -585px;
+    cursor: pointer;
+    background-color: green;
+    margin-left: 585px;
+    margin-top: 6px;
+}
+
+.btn:hover {
+    background-color:darkgray;
+    }
+    
+}
+.con {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0rem auto;
+}
+table.center {
+    font-size: 10rem;
+}
+
+tr {
+    background-color: white;
+    font-size: 1.3rem;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(3, 136, 143);
+    box-shadow: rgb(1, 1, 32) 0 0 20px 2px;
+}
+
+th {
+    background-color: black;
+    font-size: 2rem;
+    color: white;
+}
+
+th,
+td {
+    padding: 1rem;
+    text-align: center;
+}
+
+table {
+    margin: 5rem auto;
+    width: 57vw;
+    box-shadow: rgb(1, 1, 32) 0 0 10px 2px;
+    margin-top: 38px;
+}
+
+td {
+    color: black;
+}
+
+tr:hover td {
+    background-color: lightgrey;
+    box-shadow: rgb(1, 1, 32) 0 0 300px 2px;
+}
+
+.con .primary {
+    margin: 2rem auto;
+    /* border: crimson 2px solid; */
+    text-align: center;
+}
+
+.drop-down select {
+    display: block;
+    width: 100%;
+    height: 5rem;
+    font-size: 2.5rem;
+    color: rgb(2, 2, 3);
+    margin: 1.5rem auto;
+    padding: 0.7rem;
+    border: black 3px solid;
+    /* background-color: rgb(32, 140, 212); */
+}
+
+    .drop-down select option {
+        color: rgb(3, 41, 41);
+        font-size: 2.5rem;
+    }
+
+section.drop-down label {
+    font-size: 3rem;
+}
+
+section.drop-down {
+    margin: 7rem auto;
+}
+.start {
+    background-color: grey;
+    padding: 11px 15px 10px 228px;
+}
+.text {
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;  
+}
+.user {
+    background-color: lightgray;
+    margin-left: 188px;
+    margin-bottom: 52px;
+    width: 100px;
+    height: 34px;
+    border: 4px solid black;
+}
